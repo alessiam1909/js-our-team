@@ -32,3 +32,7 @@
  ]
 
  console.log(members);
+
+ for(let key in members){
+    console.log(members[key]);
+ }
