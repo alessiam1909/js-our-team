@@ -1,11 +1,11 @@
 let contenuto = document.getElementById('contenuto');
-let persona, div, member;
+let div, member;
 
 
 function creaElemento(){
     div = document.createElement('div');
     div.classList.add('card');
-    div.innerHTML = `<p>${member.nome}<br>${member.ruolo}</p> <img src="./img/${member.img}">`;
+    div.innerHTML = `<img src="./img/${member.img}"><p>${member.nome}<br>${member.ruolo}</p> `;
     return div;
 };
 
